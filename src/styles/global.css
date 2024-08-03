@@ -1,5 +1,5 @@
 html {
-    background-color: #b8b8b9;
+    background-color: #ff76ef;
     font-family: system-ui;
     line-height: 1.5;
     margin: 0;
@@ -32,14 +32,14 @@ html {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #ff9776;
+    background-color: #ff76ef;
   }
   
   .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
+    background-color: #b5b5b5;
     display: none;
     margin: 0;
   }
@@ -55,7 +55,7 @@ html {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #d7e089;
+    background-color: #b5b5b5;
   }
   
   .expanded {
@@ -82,9 +82,9 @@ html {
   }
   html.dark {
     background-color: #3b0229;
-    color: #b4b2b2;
+    color: #d7e089;
   }
   
   .dark .nav-links a {
-    color: #eac651;
+    color: #d7e089;
   }
