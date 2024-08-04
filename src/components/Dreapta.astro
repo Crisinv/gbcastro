@@ -1,0 +1,13 @@
+---
+import { Image } from 'astro:assets';
+import myImage from '../assets/dreapta.svg'; // Image is 1600x900
+---
+<Image
+    id="dreapta"
+    src={myImage}
+    width={myImage.width / 2}
+    densities={[1.5, 2]}
+    loading='eager'
+    alt="o forma roz in dreapta paginii"
+  />
+  

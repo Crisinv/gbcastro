@@ -1,0 +1,16 @@
+---
+import { Image } from 'astro:assets';
+import myImage from '../assets/logo.png'; 
+---
+
+
+<a href="/">
+    <Image
+    id="logo"
+    src={myImage}
+    width={myImage.width / 2}
+    densities={[1.5, 2]}
+    loading='eager'
+    alt="logo o doamna si scris gina's beauty corner"
+  />
+  </a>

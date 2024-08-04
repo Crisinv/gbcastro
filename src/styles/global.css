@@ -34,14 +34,14 @@ html {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #d7e089;
+    background-color: #ffc400;
   }
   
   .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ffffff;
+    background-color: #014367;
     display: none;
     margin: 0;
   }
@@ -83,7 +83,7 @@ html {
     }
   }
   html.dark {
-    background-color: #013e63;
+    background-color: #014367;
     color: #000000;
   }
   
@@ -100,17 +100,23 @@ html {
   
 
 #stanga{
+  
+  right: 0px;
   size: absolute;
   position:absolute;
-  top:60%;
+  
 
 }
 #dreapta{
+  left: 0px;
   size:absolute;
-position: absolute;
-top:20%
+  position:absolute;
+  top:90%;
 }
-
+.logo{
+  max-width: 100%;
+  height: auto;
+}
 
 
 
