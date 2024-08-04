@@ -1,0 +1,16 @@
+---
+// import the Image component and the image
+import { Image } from 'astro:assets';
+import myImportedImage from '../assets/logo5.svg'; // Image is 1600x900
+---
+
+<!-- `alt` is mandatory on the Image component -->
+<Image src={myImportedImage} alt="A description of my image." />
+<img
+  src="/_astro/logo5.hash.webp"
+  width="1600"
+  height="900"
+  decoding="async"
+  loading="lazy"
+  alt="A description of my image."
+/>
