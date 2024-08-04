@@ -1,9 +1,10 @@
 ---
-import fundal from '../components/fundal.astro';
+
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { ViewTransitions } from "astro:transitions";
 import '../styles/global.css';
+
 const { pageTitle } = Astro.props;
 ---
 <html lang="ro">
@@ -16,10 +17,15 @@ const { pageTitle } = Astro.props;
     <ViewTransitions />
   </head>
   <body>
-    <fundal />
+    
+    
+    
+      
+  
 
     <Header />
     <h1 transition:animate="slide">{pageTitle}</h1>
+    
     <slot />
     <Footer />
     <script>

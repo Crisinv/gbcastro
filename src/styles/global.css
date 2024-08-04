@@ -1,5 +1,7 @@
 html {
-    background-color: #ff76ef;
+    background-image:url('fundal.svg');
+    background-size:cover;
+    background-repeat:no-repeat;  
     font-family: system-ui;
     line-height: 1.5;
     margin: 0;
@@ -39,7 +41,7 @@ html {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #b5b5b5;
+    background-color: #ffffff;
     display: none;
     margin: 0;
   }
@@ -55,7 +57,7 @@ html {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #b5b5b5;
+    background-color: #e6e6e6;
   }
   
   .expanded {
@@ -81,12 +83,41 @@ html {
     }
   }
   html.dark {
-    background-color: #3b0229;
-    color: #d7e089;
+    background-color: #013e63;
+    color: #000000;
   }
   
   .dark .nav-links a {
-    color: #d7e089;
+    color: #000000;
   }
+  .poza{
+    
+    display: none;
+    position: relative;
+    width:50%;
+  }
+
   
-   
+
+#stanga{
+  size: absolute;
+  position:absolute;
+  top:60%;
+
+}
+#dreapta{
+  size:absolute;
+position: absolute;
+top:20%
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,11 +1,18 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import { Image } from 'astro:assets';
+import myImage from '../assets/logo5.svg';
 const pageTitle = "Acasa";
 
 ---
 <BaseLayout pageTitle={pageTitle}>
   <h2>Un subtitlu cinstit de dragul esteticii</h2>
+  <Image
+    src={myImage}
+    width={myImage.width / 4}
+    densities={[1.5, 2]}
+    alt="o doamna si scris Gina's Beauty Corner"
+  />
   
   
 </BaseLayout>
