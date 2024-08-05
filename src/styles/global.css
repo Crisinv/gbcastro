@@ -94,7 +94,7 @@ html {
     
     display: none;
     position: relative;
-    width:50%;
+    width:25%;
   }
 
   
@@ -112,6 +112,7 @@ html {
   size:absolute;
   position:absolute;
   top:90%;
+  z-index: -1;
 }
 .logo{
   max-width: 100%;
