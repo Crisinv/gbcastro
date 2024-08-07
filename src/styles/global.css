@@ -103,15 +103,15 @@ html {
   
   right: 0px;
   size: absolute;
-  position:absolute;
+  position: fixed;
   z-index: -1;
   
 
 }
 #dreapta{
   left: 0px;
-  size:absolute;
-  position:absolute;
+  size: absolute;
+  position: fixed;
   top:90%;
   z-index: -1;
 }
