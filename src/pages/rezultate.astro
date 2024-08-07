@@ -19,10 +19,12 @@ const imageFiles = await Astro.glob('../assets/images/*');
     {
       imageFiles.map((img) => (
         <Image
+          class="galerie"
           src={img.default}
-          width="600"
-          alt="Photo of a pizza"
+          width="300"
+          alt="fluturi"
           class="mb-3 w-full rounded"
+          loading="lazy"
         />
       ))
     }
